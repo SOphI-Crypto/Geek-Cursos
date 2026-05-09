@@ -1,0 +1,8 @@
+TextWindow.WriteLine("Programa para multiplicar dois numeros)
+("Dgite o valor do primeiro numero:")
+PRIMEIRO = TextWindow.Read()
+TextWindow.WriteLine("Digite o valor do segundo numero:")
+SEGUNDO = TextWindow.Read()
+RESULTADO = PRIMEIRO*SEGUNDO
+TextWindow.WriteLine(" O resultado da multiplicação é")
+TextWindow.WriteLine(RESULTADO)
