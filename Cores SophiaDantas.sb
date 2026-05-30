@@ -1,0 +1,20 @@
+TextWindow.WriteLine("Entre com o valor de X:")
+X = TextWindow.Read()
+
+TextWindow.WriteLine("Entre com o valor de Y:")
+Y = TextWindow.Read()
+
+TextWindow.WriteLine("Entre com a Largura:")
+Largura = TextWindow.Read()
+
+TextWindow.WriteLine("Entre com a Altura:")
+Altura = TextWindow.Read()
+
+TextWindow.WriteLine("Entre coma espessura da linha")
+Espessura = TextWindow.Read()
+
+GraphicsWindow.PenWidth=Espessura
+GraphicsWindow.DrawEllipse(X, Y, Largura, Altura)
+
+GraphicsWindow.BrushColor = "DarkRed"
+GraphicsWindow.FillEllipse(100 ,100 ,100 ,100)
